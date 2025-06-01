@@ -1,0 +1,67 @@
+#kpop-enhancer-overlay {
+  position: fixed;
+  top: 70px;
+  right: 20px;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+  padding: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+#kpop-enhancer-panel {
+  position: fixed;
+  top: 70px;
+  right: 20px;
+  width: 320px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.kpop-context {
+  color: #333;
+}
+
+.kpop-context h3 {
+  margin: 0 0 8px 0;
+  font-size: 16px;
+  color: #87ceeb;
+}
+
+.kpop-context p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.kpop-info-panel {
+  color: #333;
+}
+
+.kpop-info-panel h2 {
+  margin: 0 0 16px 0;
+  font-size: 18px;
+  color: #87ceeb;
+}
+
+.info-section {
+  margin-bottom: 16px;
+}
+
+.info-section h3 {
+  margin: 0 0 8px 0;
+  font-size: 16px;
+  color: #666;
+}
+
+.info-section p {
+  margin: 4px 0;
+  font-size: 14px;
+  line-height: 1.5;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>K-Pop Video Enhancer</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>K-Pop Video Enhancer</h1>
+    </div>
+    
+    <div class="settings">
+      <div class="setting-item">
+        <label>
+          <input type="checkbox" id="showLyrics" checked>
+          Show Lyrics
+        </label>
+      </div>
+      <div class="setting-item">
+        <label>
+          <input type="checkbox" id="showContext" checked>
+          Show Cultural Context
+        </label>
+      </div>
+      <div class="setting-item">
+        <label>
+          <input type="checkbox" id="showRecommendations" checked>
+          Show Recommendations
+        </label>
+      </div>
+    </div>
+
+    <div class="current-video">
+      <h2>Current Video</h2>
+      <div id="videoInfo">
+        <p>No K-pop video detected</p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <button id="togglePanel">Toggle Info Panel</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
